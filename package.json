@@ -11,5 +11,8 @@
     "url": "muller-api"
   },
   "author": "bryanvengwa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1"
+  }
 }
