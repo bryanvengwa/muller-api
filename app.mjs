@@ -16,6 +16,8 @@ app.use((request, response, next) => {
     'Access-Control-Allow-Methods',
     'GET, POST,PUT, DELETE,PATCH'
   );
+  response.setHeader('Access-Control-Allow-Headers','Content-Type', 'Authorization');
+  next();
 });
 
 app.use('/feed', feedRoutes);
