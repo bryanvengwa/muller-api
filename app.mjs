@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // GET /feed/post
-app.use(bodyParser)
+app.use(bodyParser.json());
 app.use('/feed', feedRoutes);
 
 app.listen(PORT, () => {
