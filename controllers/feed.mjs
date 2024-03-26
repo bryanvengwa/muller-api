@@ -56,6 +56,9 @@ export const getPost = (request, response, next) => {
 };
 
 export const createPost = (request, response, next) => {
+  const {
+    body: { title, content },
+  } = request;
   return response.status(201).json({
     message: 'Post created successfully',
     post: { id: new Date().toISOString(), title: title, content: content },
