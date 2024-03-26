@@ -8,6 +8,16 @@ const PORT = process.env.PORT || 8080;
 
 // GET /feed/post
 app.use(bodyParser.json());
+
+// this code removes CORS error's BY ALLOWING CERTAIN ORIGINS
+app.use((request, response, next) => {
+  response.setHeader('Access-Control-Allow-Origin', '*');
+  response.setHeader(
+    'Access-Control-Allow-Methods',
+    'GET, POST,PUT, DELETE,PATCH'
+  );
+});
+
 app.use('/feed', feedRoutes);
 
 app.listen(PORT, () => {
