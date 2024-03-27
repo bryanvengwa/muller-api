@@ -8,7 +8,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 2,
@@ -19,7 +19,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 3,
@@ -30,7 +30,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 4,
@@ -41,7 +41,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 5,
@@ -52,7 +52,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 6,
@@ -63,7 +63,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 7,
@@ -74,7 +74,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 8,
@@ -85,7 +85,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     _id: 9,
@@ -96,7 +96,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+  createdAt: new Date()
   },
   {
     i_d: 10,
@@ -107,7 +107,7 @@ const dummyData = [
       name:'bryanvengwa',
       
     },
-    date: new Date()
+    createdAt: new Date()
   },
 ];
 
